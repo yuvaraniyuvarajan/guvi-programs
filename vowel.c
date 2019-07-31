@@ -4,6 +4,8 @@ int main()
 char ch;
 scanf("%c",&ch);
 ch=tolower(ch);
+if(isalpha(ch))
+{
 switch(ch)
 {
     case 'a':
@@ -14,7 +16,13 @@ switch(ch)
      printf("Vowel");
      break;
     default:
-      printf("Invalid");
+      printf("Consonent");
     
 }
+}
+else
+{
+    printf("Invalid");
+}
+
 }
