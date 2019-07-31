@@ -16,7 +16,7 @@ switch(ch)
      printf("Vowel");
      break;
     default:
-      printf("Consonent");
+      printf("Consonant");
     
 }
 }
